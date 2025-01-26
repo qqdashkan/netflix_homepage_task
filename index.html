@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search,star"
+    />
+    <link rel="stylesheet" href="https://sliderm.com/dist/1.0.8/sliderm.css" />
+    <script src="https://sliderm.com/dist/1.0.8/sliderm.js"></script>
+    <title>Netflix</title>
+    <link href="/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex h-full w-full flex-col justify-start gap-y-10">
+      <header class="mx-auto flex w-7xl justify-between py-5">
+        <div class="flex items-center justify-start gap-9">
+          <img src="/Logonetflix.png" alt="logo" width="150px" />
+          <nav>
+            <ul class="flex items-center justify-center gap-5 text-white">
+              <li><a href="">Головна</a></li>
+              <li><a href="">Серіали</a></li>
+              <li><a href="">Фільми</a></li>
+              <li><a href="">Обране</a></li>
+              <li><a href="">Пошук</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="flex items-center gap-9">
+          <button>
+            <span class="material-symbols-outlined text-white"> search </span>
+          </button>
+
+          <img
+            src="https://cdn.prod.website-files.com/6336bb0932b68bd798630618/64ca19b0204846f773b1ebf1_New%20Project.png"
+            alt="photo"
+            width="50px"
+          />
+        </div>
+      </header>
+      <main class="flex w-full flex-col">
+        <div class="mx-auto flex w-7xl flex-col justify-start">
+          <div class="flex flex-col justify-start gap-x-5 gap-y-3">
+            <div class="flex justify-start">
+              <ul
+                class="flex items-center justify-between gap-10 text-2xl text-white"
+              >
+                <li>Drama</li>
+                <li class="list-disc">Thriller</li>
+                <li class="list-disc">Supernatural</li>
+              </ul>
+            </div>
+            <h1 class="text-4xl text-white">Stranger Things</h1>
+            <div class="flex justify-start">
+              <ul
+                class="flex items-center justify-between gap-8 text-lg text-white"
+              >
+                <li><p>2019</p></li>
+                <li class="list-disc">Director: Shawn Levy</li>
+                <li class="list-disc">Seasons 3 (12 episodes)</li>
+              </ul>
+            </div>
+
+            <span class="flex w-lg justify-start text-gray-400">
+              In 1980s Indiana, a group of young friends witness supernatural
+              forces and secret government exploits. As they search for answers,
+              the children unravel a series of extraordinary mysteries.</span
+            >
+            <ul class="flex items-center justify-start gap-x-3">
+              <li>
+                <span
+                  class="material-symbols-outlined text-[72px] text-yellow-500"
+                >
+                  star
+                </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined text-yellow-500">
+                  star
+                </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined text-yellow-500">
+                  star
+                </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined empty text-yellow-500">
+                  star
+                </span>
+              </li>
+              <li>
+                <span class="material-symbols-outlined empty text-yellow-500">
+                  star
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="flex justify-start gap-x-10 py-5">
+            <button class="rounded-lg bg-rose-700">
+              <a href=""
+                ><p class="px-7 py-2 text-white uppercase">Stream now</p></a
+              >
+            </button>
+
+            <button
+              class="rounded-lg border-3 border-solid border-white bg-transparent"
+            >
+              <a href=""
+                ><p class="px-7 py-2 text-white uppercase">All episodes</p></a
+              >
+            </button>
+          </div>
+        </div>
+        <section class="m-auto my-5 h-1/4 w-11/12">
+          <div id="exampe-slider" class="sliderm">
+            <div class="sliderm__slider">
+              <div class="sliderm__slides">
+                <div class="sliderm__slide">
+                  <img
+                    src="https://lumiere-a.akamaihd.net/v1/images/p_moana2_payoff_5787a994.jpeg"
+                  />
+                </div>
+                <div class="sliderm__slide">
+                  <img
+                    src="https://i.pinimg.com/564x/e5/6b/3a/e56b3adad6787941e5d64fccd044d88a.jpg"
+                    width="150px"
+                  />
+                </div>
+                <div class="sliderm__slide">
+                  <img
+                    src="https://posterspy.com/wp-content/uploads/2021/09/Final-3-scaled.jpg"
+                    width="150px"
+                  />
+                </div>
+                <div class="sliderm__slide">
+                  <img
+                    src="https://i0.wp.com/joshatthemovies.com/wp-content/uploads/2023/01/You-Season-4-Part-2.jpg?fit=800%2C1200&ssl=1"
+                    width="150px"
+                  />
+                </div>
+                <div class="sliderm__slide">
+                  <img
+                    src="https://asthebunnyhops.com/wp-content/uploads/2022/03/Bridgerton-Season-2-Poster-700x1037.jpg.webp"
+                    width="150px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="container"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
