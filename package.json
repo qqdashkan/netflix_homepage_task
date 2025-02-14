@@ -1,0 +1,19 @@
+{
+  "name": "slider-three",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "@types/three": "^0.173.0",
+    "three": "^0.173.0",
+    "virtual-scroll": "^2.2.1"
+  }
+}
